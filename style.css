@@ -1,0 +1,63 @@
+.container {
+    width: 80%;
+    /* You can adjust the width as needed */
+    margin: 0 auto;
+    /* Centers the container horizontally */
+    padding: 20px;
+    /* Adds padding inside the container */
+    border: 1px solid #ccc;
+    /* Adds a border for visualization */
+    box-sizing: border-box;
+    /* Includes padding and border in the width */
+}
+
+/* Additional styles for demonstration purposes */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Use flexbox to align items */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+nav ul li {
+    display: inline;
+    /* Display list items inline */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
