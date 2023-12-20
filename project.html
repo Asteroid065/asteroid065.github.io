@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Projects</title>
 </head>
+
 <body>
-    
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <h4 onclick="clickName()">Hassan Muhammed Ahsan</h4>
+        <a href="/">About</a>
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="projects.html" class="active">Projects</a>
+    </div>
+    <div class="body-container">
+        <div class="portfolio">
+            <h1>Portfolio</h1>
+            <!-- Your portfolio items go here -->
+            <!-- Example: -->
+            <div class="portfolio-item">
+                <h3>TRAFFIC AWARE SCALING OPTIMIZATION IN OPENFAAS</h3>
+                <p>
+                    <ul class="portfolio-li">
+                        <li>Proposed and Implemented a traffic aware scaling algorithm for the OpenFaaS platform for changing the static
+                        parameters during scaling</li>
+                        <li>Improved run times and request handling by 30% for Data Science Functions written in the Function-as-a-service model
+                        in the OpenFaaS framework</li>
+                        <li>Reduced the response time in the proposed design by 50% compared to time taken in Default Static Scaling
+                        implementation</li>
+                    </ul>
+                </p>
+            </div>
+            <!-- <div class="portfolio-item">
+                <h3>MULTI-LABEL CLASSIFICATION FOR LAND COVER DETECTION</h3>
+                <p>
+                <ul class="portfolio-li">
+                    <li>Executed a Transfer learning approach to identify the land cover features from a given multi-spectral image consisting
+                    of 12 bands from Sentinel-2 Satellite</li>
+                    <li>Analyzed the raster bands reactivity to different land forms based on resolutions</li>
+                    <li>Obtained a recall of 63.80 for all the bands and a recall of 63.00 when used the RGB bands for prediction</li>
+                </ul>
+                </p>
+            </div> -->
+            <!-- <div class="portfolio-item">
+                <h3>NEIGHBOURHOOD ANALYSIS USING PYTHON</h3>
+                <p>
+                <ul class="portfolio-li">
+                    <li>Analyzed the neighborhoods of New York City and identified areas with high potential for Indian Cuisine Restaurants</li>
+                    <li>Identified localities preferable to live where Indian Cuisine Restaurants are available using a rating scale of 10</li>
+                </ul>
+                </p>
+            </div> -->
+            <!-- <div class="portfolio-item">
+                <h3>TWITTER SENTIMENT ANALYSIS</h3>
+                <p>
+                <ul class="portfolio-li">
+                    <li>Led the development and implementation of various deep learning models (including BERT, CNN, LSTM, BiLSTM) for sentiment
+                    analysis on Twitter data. Explored combinations of these models such as BERT-CNN, BERT-LSTM, and BERT-BiLSTM to predict
+                    sentiments (positive, negative, neutral, and irrelevant) associated with Twitter entities.</li>
+                    <li>Conducted extensive experimentation and analysis using Jupyter Notebooks to fine-tune models and enhance sentiment
+                    classification performance. Explored the integration of BERT embeddings with different architectures and tested multiple
+                    model combinations (CNN, LSTM, BiLSTM) to optimize sentiment analysis results.</li>
+                    <li>Collaborated with a team to drive the project's success, contributing to its development and analysis.</li>
+                </ul>
+                </p>
+            </div> -->
+            <!-- <div class="portfolio-item">
+                <h3>BLOGGING WEBSITE</h3>
+                <p>
+                <ul class="portfolio-li">
+                    <li>Spearheaded the development of a Blogging Website using HTML, CSS, JavaScript, PHP, and MySQL. Implemented user
+                    authentication, message posting, and reply functionalities.</li>
+                    <li>Orchestrated the deployment of the website on a local server using XAMPP, facilitating Apache and MySQL server
+                    management.</li>
+                    <li>Collaborated with a team to create a blogging platform with robust features, incorporating user authentication, message
+                    posting, and reply functionalities.</li>
+                </ul>
+                </p>
+            </div> -->
+            <!-- <div class="portfolio-item">
+                <h3>PREMIER LEAGUE RESULT PREDICTION</h3>
+                <p>
+                <ul class="portfolio-li">
+                    <li>Predicted match results by taking the history of respective teams, the venue of the match, and the season of the IPL
+                    series with an accuracy of 99%</li>
+                </ul>
+                </p>
+            </div>
+            <div class="portfolio-item">
+                <h3>MULTI-THREADED FILE SYNC SYSTEM</h3>
+                <p>
+                <ul class="portfolio-li">
+                    <li>Created a Python-based system enabling seamless file operations (upload, download, rename, delete) between client and
+                    server using RPC based communication Protocols</li>
+                    <li>Designed and integrated a helper thread automating file creation, modification, and deletion processes between the
+                    client and server. Employed asynchronous communication for optimized handling of file tasks, enhancing system
+                    efficiency.</li>
+                    <li>Developed synchronous and asynchronous communication functionalities between the client and server.</li>
+                </ul>
+                </p>
+            </div> -->
+            <!-- Add more projects as needed -->
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Ankith Reddy Avula</p>
+            <div class="social-links">
+                <a href="mailto:ankithr005@gmail.com">
+                    <img src="images/email-favicon.ico" alt="Email">
+                    Email
+                </a>
+                <a href="https://www.linkedin.com/in/avulaankith" target="_blank">
+                    <img src="images/linkedin-favicon.ico" alt="LinkedIn">
+                    LinkedIn
+                </a>
+                <a href="https://leetcode.com/ankithavula" target="_blank">
+                    <img src="images/leetcode-favicon.ico" alt="LeetCode">
+                    LeetCode
+                </a>
+                <a href="https://github.com/avulaankith" target="_blank">
+                    <img src="images/github-favicon.ico" alt="GitHub">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
 </body>
+
 </html>
