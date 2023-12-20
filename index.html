@@ -1,23 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>About</title>
 </head>
+
 <body>
     <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </ul>
-    </nav>
-    <div class="body-container">
-        <h1>Hi I am Hassan Muhammed Ahsan</h1>
+    <div class="topnav">
+        <h4 onclick="clickName()">Hassan Muhammed Ahsan</h4>
+        <a href="/" class="active">About</a>
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="projects.html">Projects</a>
     </div>
-    
+
+    <div class="body-container">
+        <div class="about-me">
+            <h1 id="hello">Hello</h1>
+            <h3 id="hello2">Here's who I am & what I do</h3>
+            <p>
+                Hi, I'm Hassan Muhammed Ahsan. I'm a passionate developer with a keen interest in creating meaningful and
+                innovative projects. I love to explore new technologies and leverage them to build exciting
+                applications.
+            </p>
+            <p>
+                Undergrad in Computer Science from Indian Institute of Information TechnologyDesign and Manufacturing Kurnool, I have developed a
+                strong foundation in Python, as well as a range of technical skills and experience with technologies such as TensorFlow, PyTorch,
+                Flask, Tableau, Power BI, SQL, Snowflake and Git. During my studies, I have also completed several projects that have allowed me 
+                to apply my skills in practical settings, including developing an Audio Source separation model for the extraction of 4 different 
+                audio categories, a real-time facial emotion recognition system, and a traffic-aware scaling algorithm for the OpenFaaS platform.
+            </p>
+            <p>
+                Outside of coding, I enjoy Going on Road Trips, reading, and a foodie. I'm dedicated to continuous
+                learning and improving my skills to contribute effectively to the world of technology.
+            </p>
+        </div>
+
+        <div class="experience">
+            <h1>Experience</h1>
+            <!-- Your experience details go here -->
+            <!-- Example: -->
+            <div class="experience-item">
+                <h3>Research Intern</h3>
+                <p>Samsung India   May 2021 - November 2021</p>
+                <ul class="portfolio-li">
+                    <li>Developed an Audio Source separation model for extraction of 4 different audio categories from a given audio track using
+                    TensorFlow, UNets, Auto-Encoders, and Librosa</li>
+                    <li>Designed an Audio separation model which extracts the bass, drums, vocals, and other category audios from the given
+                    audio file implementing Fourier transforms</li>
+                    <li>Deployed a model that generates separated audios of the above categories with a mean absolute error(MAE) of 1.3733</li>
+                </ul>
+                <!-- <p>Worked on developing and maintaining web applications using JavaScript and React.</p> -->
+            <!-- </div>
+            <div class="experience-item">
+                <h3>Data Science Intern</h3>
+                <p>Ismriti - IIT Kanpur   June 2019 - July 2019</p>
+                <ul class="portfolio-li">
+                    <li>Developed a real-time facial emotion recognition system that recognizes and classifies the live facial emotion of the
+                    user using Python, CNN, TensorFlow, and OpenCV</li>
+                    <li>Designed a model that classifies the user face emotion into 7 categories namely happy, sad, neutral, fear, angry,
+                    disgust, and surprise</li>
+                    <li>Implemented a model that classifies the live facial expression of the user with an accuracy of 98%</li>
+                </ul>
+                <!-- <p>Collaborated with various clients to create custom websites and web applications.</p> -->
+            <!--/div> -->
+            <!-- Add more experience items as needed -->
+        <!-- </div>
+
+        <div class="teaching">
+            <h1>Teaching</h1>
+            <div class="teaching-item">
+                <h3>Graduate Teaching Assistant</h3>
+                <p>University of Texas Arlington August 2023 - December 2023</p>
+                <p>Taught, graded and helped students for the course Design and Analysis of Algorithms (CSE 5311), 
+                held office hours to solve students queries and doubts</p>
+            </div>
+        </div> -->
+
+        <div class="education">
+            <h1>Education</h1>
+            <!-- Your education details go here -->
+            <!-- Example: -->
+            <!-- <div class="education-item">
+                <h3>Master of Science in Computer Science</h3>
+                <p>University of Texas Arlington    August 2022 - May 2024</p>
+                <p>Relevant coursework: Algorithms, Web Development, Cloud Computing and Big Data, Machine Learning</p>
+            </div> -->
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Engineering</h3>
+                <p>Indian Institute of Information Technology Design and Manufacturing Kurnool   August 2018 - May 2022</p>
+                <p>Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Computer Networks</p>
+            </div>
+            <!-- Add more education items as needed -->
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>Hassan Muhammed Ahsan</p>
+            <div class="social-links">
+                <a href="mailto:ahassanforwork@gmail.com">
+                    <img src="images/email-favicon.ico" alt="Email">
+                    Email
+                </a>
+                <a href="https://www.linkedin.com/in/hassanahsan005/" target="_blank">
+                    <img src="images/linkedin-favicon.ico" alt="LinkedIn">
+                    LinkedIn
+                </a>
+                <!-- <a href="https://leetcode.com/ankithavula" target="_blank">
+                    <img src="images/leetcode-favicon.ico" alt="LeetCode">
+                    LeetCode
+                </a> -->
+                <a href="https://github.com/Asteroid065" target="_blank">
+                    <img src="images/github-favicon.ico" alt="GitHub">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="portfolio.js"></script>
 </body>
+
 </html>
