@@ -5,38 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>About</title>
+    <title>Hassan's Portfolio</title>
 </head>
 
 <body>
     <!-- Navigation Bar -->
     <div class="topnav">
         <h4 onclick="clickName()">Hassan Muhammed Ahsan</h4>
-        <a href="/" class="active">About</a>
+        <a href="/" class="active">Home</a>
         <a href="resume.pdf" target="_blank">Resume</a>
         <a href="projects.html">Projects</a>
     </div>
 
     <div class="body-container">
+        <div class="myimage">
+            <img src="images/myphoto.jpg" alt="myphoto">
+        </div>
         <div class="about-me">
             <h1 id="hello">Hello</h1>
             <h3 id="hello2">Here's who I am & what I do</h3>
             <p>
-                Hi, I'm Hassan Muhammed Ahsan. I'm a passionate developer with a keen interest in creating meaningful and
-                innovative projects. I love to explore new technologies and leverage them to build exciting
-                applications.
+                Hi, I'm Hassan Muhammed Ahsan. I'm an aspiring developer with a keen interest in creating meaningful and innovative projects. I love to explore new technologies and leverage them to build exciting applications.
             </p>
             <p>
-                Undergrad in Computer Science from Indian Institute of Information Technology Design and Manufacturing Kurnool, I have developed a
-                strong foundation in Python, as well as a range of technical skills and experience with technologies such as TensorFlow, PyTorch,
-                Flask, Tableau, Power BI, SQL, Snowflake and Git. During my studies, I have also completed several projects that have allowed me 
-                to apply my skills in practical settings, including developing an Audio Source separation model for the extraction of 4 different 
-                audio categories, a real-time facial emotion recognition system, and a traffic-aware scaling algorithm for the OpenFaaS platform.
+                Undergrad in Computer Science from Indian Institute of Information Technology Design and Manufacturing Kurnool, I have developed a strong foundation in Python, as well as a range of technical skills and experience with technologies such as TensorFlow,
+                PyTorch, Flask, Tableau, Power BI, SQL, Snowflake and Git. During my studies, I have also completed several projects that have allowed me to apply my skills in practical settings, including developing an Audio Source separation model for
+                the extraction of 4 different audio categories, a real-time facial emotion recognition system, and a traffic-aware scaling algorithm for the OpenFaaS platform.
             </p>
             <p>
-                Outside of coding, I enjoy Going on Road Trips, reading, and a foodie. I'm dedicated to continuous
-                learning and improving my skills to contribute effectively to the world of technology.
+                Outside of coding, I enjoy Going on Road Trips, reading, and a foodie. I'm dedicated to continuous learning and improving my skills to contribute effectively to the world of technology.
             </p>
+            <div class="social-links">
+                <a href="mailto:ahassanforwork@gmail.com">
+                    <img src="images/email-favicon.ico" alt="Email"> Email
+                </a>
+                <a href="https://www.linkedin.com/in/hassanahsan005/" target="_blank">
+                    <img src="images/linkedin-favicon.ico" alt="LinkedIn"> LinkedIn
+                </a>
+                <a href="https://github.com/asteroid065" target="_blank">
+                    <img src="images/github-favicon.ico" alt="GitHub"> GitHub
+                </a>
+            </div>
         </div>
 
         <div class="experience">
@@ -44,20 +53,24 @@
             <!-- Your experience details go here -->
             <!-- Example: -->
             <div class="experience-item">
+                <div class="experience-image">
+                    <img src="images/Samsung-Logo728_410.jpg" alt="Samsung">
+                </div>
                 <h3>Research Intern</h3>
-                <p>Samsung India   May 2021 - November 2021</p>
+                <h4>Samsung India | <em>May 2021 - November 2021</em></h4>
                 <ul class="portfolio-li">
-                    <li>Developed an Audio Source separation model for extraction of 4 different audio categories from a given audio track using
-                    TensorFlow, UNets, Auto-Encoders, and Librosa</li>
-                    <li>Designed an Audio separation model which extracts the bass, drums, vocals, and other category audios from the given
-                    audio file implementing Fourier transforms</li>
+                    <li>Developed an Audio Source separation model for extraction of 4 different audio categories from a given audio track using TensorFlow, UNets, Auto-Encoders, and Librosa</li>
+                    <li>Designed an Audio separation model which extracts the bass, drums, vocals, and other category audios from the given audio file implementing Fourier transforms</li>
                     <li>Deployed a model that generates separated audios of the above categories with a mean absolute error(MAE) of 1.3733</li>
                 </ul>
                 <!-- <p>Worked on developing and maintaining web applications using JavaScript and React.</p> -->
-            <!-- </div>
-            <div class="experience-item">
+            </div>
+            <!-- <div class="experience-item">
+                <div class="experience-image2">
+                    <img src="images/1551097732795.jpeg" alt="Ismriti">
+                </div>
                 <h3>Data Science Intern</h3>
-                <p>Ismriti - IIT Kanpur   June 2019 - July 2019</p>
+                <h4>Ismriti - IIT Kanpur | <em>June 2019 - July 2019</em></h4>
                 <ul class="portfolio-li">
                     <li>Developed a real-time facial emotion recognition system that recognizes and classifies the live facial emotion of the
                     user using Python, CNN, TensorFlow, and OpenCV</li>
@@ -65,59 +78,51 @@
                     disgust, and surprise</li>
                     <li>Implemented a model that classifies the live facial expression of the user with an accuracy of 98%</li>
                 </ul>
-                <!-- <p>Collaborated with various clients to create custom websites and web applications.</p> -->
-            <!--/div> -->
-            <!-- Add more experience items as needed -->
-        <!-- </div>
+                <!--<p>Collaborated with various clients to create custom websites and web applications.</p> -->
+        </div> -->
+        <!-- Add more experience items as needed -->
+    </div>
 
-        <div class="teaching">
+    <!-- <div class="teaching">
             <h1>Teaching</h1>
             <div class="teaching-item">
+                <div class="teaching-image">
+                    <img src="images/cseuta_logo.jpeg" alt="UTA">
+                </div>
                 <h3>Graduate Teaching Assistant</h3>
-                <p>University of Texas Arlington August 2023 - December 2023</p>
+                <h4>University of Texas Arlington | <em>August 2023 - December 2023</em></h4>
                 <p>Taught, graded and helped students for the course Design and Analysis of Algorithms (CSE 5311), 
                 held office hours to solve students queries and doubts</p>
             </div>
         </div> -->
 
-        <div class="education">
-            <h1>Education</h1>
-            <!-- Your education details go here -->
-            <!-- Example: -->
-            <!-- <div class="education-item">
+    <div class="education">
+        <h1>Education</h1>
+        <!-- Your education details go here -->
+        <!-- Example: -->
+        <!-- <div class="education-item">
+                <div class="education-image">
+                    <img src="images/orange-logo-on-blue.jpg" alt="UTA">
+                </div>
                 <h3>Master of Science in Computer Science</h3>
-                <p>University of Texas Arlington    August 2022 - May 2024</p>
+                <h4>University of Texas Arlington | <em>August 2022 - May 2024</em></h4>
                 <p>Relevant coursework: Algorithms, Web Development, Cloud Computing and Big Data, Machine Learning</p>
             </div> -->
-            <div class="education-item">
-                <h3>Bachelor of Technology in Computer Engineering</h3>
-                <p>Indian Institute of Information Technology Design and Manufacturing Kurnool   August 2018 - May 2022</p>
-                <p>Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Computer Networks</p>
+        <div class="education-item">
+            <div class="education-image2">
+                <img src="images/Indian_Institute_of_Information_Technology_Design_and_Manufacturing_Kurnool_logo.png" alt="IIITDM Kurnool">
             </div>
-            <!-- Add more education items as needed -->
+            <h3 id="IIITDM">Bachelor of Technology in Computer Engineering</h3>
+            <h4>Indian Institute of Information Technology Design and Manufacturing Kurnool | <em>August 2018 - May 2022</em></h4>
+            <p>Relevant coursework: Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Computer Networks</p>
         </div>
+        <!-- Add more education items as needed -->
+    </div>
     </div>
     <footer>
         <div class="footer-content">
-            <p>Hassan Muhammed Ahsan</p>
-            <div class="social-links">
-                <a href="mailto:ahassanforwork@gmail.com">
-                    <img src="images/email-favicon.ico" alt="Email">
-                    Email
-                </a>
-                <a href="https://www.linkedin.com/in/hassanahsan005/" target="_blank">
-                    <img src="images/linkedin-favicon.ico" alt="LinkedIn">
-                    LinkedIn
-                </a>
-                <!-- <a href="https://leetcode.com/ankithavula" target="_blank">
-                    <img src="images/leetcode-favicon.ico" alt="LeetCode">
-                    LeetCode
-                </a> -->
-                <a href="https://github.com/Asteroid065" target="_blank">
-                    <img src="images/github-favicon.ico" alt="GitHub">
-                    GitHub
-                </a>
-            </div>
+            <p>© 2023 <a href="/">Hassan Muhammed Ahsan</a></p>
+
         </div>
     </footer>
 
