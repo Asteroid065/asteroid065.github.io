@@ -7,7 +7,7 @@
 }
 
 .topnav h4 {
-    color: blue;
+    color: rgb(44, 121, 199);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
@@ -50,6 +50,15 @@ body {
 }
 
 /* Existing styles */
+
+.myimage img {
+    float: right;
+    height: 9cm;
+    width: 8cm;
+    /* margin-top: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2% 2% 1% 2%;
+}
 
 /* Additional styles for About Me and Portfolio sections */
 .about-me {
@@ -96,12 +105,51 @@ body {
     color: #555;
 }
 
-.portfolio-li{
+.portfolio-li {
     font-size: 16px;
     color: #555;
 }
 
+.portfolio-image img {
+    float: left;
+    height: 5cm;
+    width: 6cm;
+    /* margin-top: 20px; */
+    margin: 2% 3% 1% 2%;
+}
+
+.portfolio-image2 img {
+    float: left;
+    height: 4cm;
+    width: 6cm;
+    /* margin-top: 20px; */
+    margin: 2% 3% 1% 2%;
+}
+
+.portfolio-image3 img {
+    float: left;
+    height: 3cm;
+    width: 6cm;
+    /* margin-top: 20px; */
+    margin: 2% 3% 1% 2%;
+}
 /* Existing styles */
+
+.experience-image img {
+    float: left;
+    height: 5cm;
+    width: 6cm;
+    /* margin-top: 20px; */
+    margin: 2% 2% 1% 2%;
+}
+
+.experience-image2 img {
+    float: left;
+    height: 5cm;
+    width: 6cm;
+    /* margin-top: 20px; */
+    margin: 2% 2% 1% 2%;
+}
 
 /* Additional styles for Experience and Education sections */
 .experience {
@@ -160,6 +208,37 @@ body {
     color: #555;
 }
 
+.education-image img {
+    float: left;
+    height: 3cm;
+    width: 6cm;
+    /* margin-top: 20px; */
+    margin: 2% 2% 1% 2%;
+}
+
+.education-image2 img {
+    float: left;
+    height: 3cm;
+    width: 3cm;
+    /* margin-top: 20px; */
+    margin: 2% 2% 3% 3%;
+    padding-right: 5%;
+    padding-left: 4.1%;
+}
+
+.teaching-image img {
+    float: left;
+    height: 4cm;
+    width: 4cm;
+    /* margin-top: 20px; */
+    margin: 2% 2% 1% 2%;
+}
+
+#IIITDM {
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
 .teaching {
     margin-bottom: 50px;
 }
@@ -187,11 +266,12 @@ body {
     font-size: 16px;
     color: #555;
 }
-#hello{
+
+#hello {
     font-size: 60px;
 }
 
-#hello2{
+#hello2 {
     font-size: larger;
 }
 
@@ -209,14 +289,16 @@ footer {
     align-items: center;
 }
 
-.footer-content p{
+.footer-content p {
     padding-right: 40px;
     float: left;
 }
 
 .social-links {
     display: flex;
-    float: right;
+    float:none;
+    align-items: center;
+    justify-content: center;
 }
 
 .social-links a {
