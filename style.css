@@ -317,3 +317,11 @@ footer {
     margin-right: 5px;
     /* Spacing between image and text */
 }
+}
+
+.technology-item img {
+    width: 4cm;
+    /* Set the width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+}
