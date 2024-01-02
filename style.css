@@ -318,6 +318,35 @@ footer {
     /* Spacing between image and text */
 }
 
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-item {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    /* Adjust as needed */
+}
+
+.skill-tooltip {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.skill-item:hover .skill-tooltip {
+    display: block;
+}
 
 .technology-item img {
     width: 4cm;
